@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const path = require("path");
 const dotenv = require("dotenv");
-dotenv.config();
+// dotenv.config();
 
 app.use(express.json());
 
