@@ -3,8 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const path = require("path");
 const dotenv = require("dotenv");
-app.use(express.json());
 dotenv.config();
+
+app.use(express.json());
 
 const downloadRoute = require("./routes/download.js");
 const contactRoute = require("./routes/contact");
