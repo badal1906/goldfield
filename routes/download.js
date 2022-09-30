@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const fs = require("fs");
 
-const brochurePath = __dirname + "\\GoldfieldsBROCHURE.pdf";
+const brochurePath = __dirname + "/GoldfieldsBROCHURE.pdf";
 
 router.get("/download", downloadFile);
 
